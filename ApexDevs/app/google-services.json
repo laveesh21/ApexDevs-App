@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113668600594",
+    "project_id": "apexdevs-knox",
+    "storage_bucket": "apexdevs-knox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113668600594:android:bc53b46a3eb0c9923079cb",
+        "android_client_info": {
+          "package_name": "com.example.apexdevs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3AhGVoqjmWFTFpgFZi7svjGWnfY52Qv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

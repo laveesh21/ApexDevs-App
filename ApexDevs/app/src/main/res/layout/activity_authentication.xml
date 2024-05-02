@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.Authentication"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:id="@+id/loginCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        >
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:background="@drawable/apexdevs_banner"
+            />
+
+
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:hint="Email"
+            android:height="40dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:hint="Password"
+            android:height="40dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"/>
+            <TextView
+                android:id="@+id/registerLink"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Register Here"
+                android:textColor="@color/apexGreen"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
